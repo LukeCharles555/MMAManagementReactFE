@@ -1,5 +1,31 @@
 .App {
   text-align: center;
+    /* background-image: url(./images/mmaBackground.jpg);
+    background-size: 100%;
+    background-position: center;
+    background-repeat:no-repeat;
+    width: 100%;
+    height: 100%; */
+}
+
+.App {
+  background-image: url(./images/mmaGloves.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width:100vw;
+}
+
+.cardDiv {
+  display: flex;
+  justify-content: center;
+}
+
+.fighterAppCard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .App-logo {
