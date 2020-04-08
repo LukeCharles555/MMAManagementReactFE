@@ -8,6 +8,9 @@
     height: 100%; */
 }
 
+.statsGraph {
+  background-position: center;
+}
 .App {
   background-image: url(./images/mmaGloves.jpg);
     background-position: center;

@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 import LoginPage from "./components/LoginPage";
 import FighterAppPage from "./components/FighterAppPage";
-import FighterStatsPage from "./components/FighterStatsPage";
+import FighterStatsPage from "./components/Dashboard";
 
 export default function Routing() {
     return (
@@ -12,7 +12,7 @@ export default function Routing() {
                 <Switch>
                     <Route exact path="/" component={LoginPage} />
                     <Route path="/FighterApp" component={FighterAppPage} />
-                    {/* <Route path="/FighterStats" component={FighterStatsPage} /> */}
+                    <Route path="/FighterStats" component={FighterStatsPage} />
                 </Switch>
             </Router>
         </div>

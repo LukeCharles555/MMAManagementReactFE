@@ -8,7 +8,7 @@ export default function NavBar(props) {
                 <Navbar.Brand href="/">MMA Management</Navbar.Brand>
                 <Nav className="mr-auto">
                 <Nav.Link href="/FighterApp">Fighter App</Nav.Link>
-                <Nav.Link href="#pricing">Fighter Stats</Nav.Link>
+                <Nav.Link href="/FighterStats">Fighter Stats</Nav.Link>
                 </Nav>
             </Navbar>
         </div>
